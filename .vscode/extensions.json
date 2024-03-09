@@ -1,0 +1,20 @@
+{
+	"recommendations": [
+		"bierner.color-info",
+		"bierner.github-markdown-preview",
+		"christian-kohler.path-intellisense",
+		"devsense.phptools-vscode",
+		"dotenv.dotenv-vscode",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"gruntfuggly.todo-tree",
+		"ms-vscode.live-server",
+		"mtxr.sqltools",
+		"mtxr.sqltools-driver-mysql",
+		"mtxr.sqltools-driver-sqlite",
+		"oderwat.indent-rainbow",
+		"pkief.material-icon-theme",
+		"pranaygp.vscode-css-peek",
+		"rangav.vscode-thunder-client"
+	]
+}
