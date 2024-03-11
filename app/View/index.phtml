@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0"
+	/>
+	<title><?= $title ?? '' ?></title>
+	<script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/js/tabler.min.js"></script>
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/css/tabler.min.css"
+	/>
+</head>
+
+<body data-bs-theme="dark">
+	<div class="page">
+		<?php include Freeway\DIR_ROOT . '/app/View/Component/Sidebar.phtml' ?>
+
+		<div class="page-wrapper">
+			<?php include Freeway\DIR_ROOT . '/app/View/Component/Header.phtml' ?>
+
+			<div class="page-body">
+				<div class="container-xl">
+					<div class="row row-deck row-cards">
+						<?php include Freeway\DIR_ROOT . '/app/View/Component/Table.phtml' ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<?php include Freeway\DIR_ROOT . '/app/View/Component/Modal.phtml' ?>
+</body>
+
+</html>
